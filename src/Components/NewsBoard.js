@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import NewsItem from './NewsItem';
 
 function NewsBoard() {
-    // const VITE_API_KEY=
-    // "48755ba0586c49e1863abad573fc135e"
-    const VITE_API_KEY= "pub_506284378f3067263301c71aa1ebf2ec8d9be"
+    const VITE_API_KEY=
+    "48755ba0586c49e1863abad573fc135e"
+    // const VITE_API_KEY= "pub_506284378f3067263301c71aa1ebf2ec8d9be"
     const [articles, setArticles] = useState([]);
 
     useEffect(() => {
